@@ -21,7 +21,48 @@
 .clear {
   clear: both;
 }
-
+.deals {
+  display: flex;
+  margin-top: 20px;
+}
+.deals .shadow:nth-child(2) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.grass {
+  display: flex;
+}
+.dates {
+  padding: 15px;
+}
+.grass .shadow:nth-child(1) {
+  flex: 2;
+}
+.grass .shadow:nth-child(2) {
+  flex: 1;
+  padding: 5px;
+  margin-left: 20px;
+}
+.wrapper .milk_text {
+  margin: 15px 0 10px 0;
+}
+.bottom {
+  display: flex;
+  background-color: inherit;
+  padding: 0;
+}
+section.bottom div {
+  flex: 1;
+}
+.bottom.border_right:first-child {
+  padding-left: 0;
+}
+.bottom.border_right:last-child {
+  border: none;
+}
+.shadow.shadow-box {
+  padding: 20px;
+}
 /* Positioning Classes */
 
 
